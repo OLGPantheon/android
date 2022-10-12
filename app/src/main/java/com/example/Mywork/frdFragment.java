@@ -1,4 +1,4 @@
-package com.example.mywork_lbw;
+package com.example.Mywork;
 
 
 import android.os.Bundle;
@@ -10,10 +10,10 @@ import android.app.Fragment;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link settingsFragment#newInstance} factory method to
+ * Use the {@link frdFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class settingsFragment extends Fragment {
+public class frdFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -24,7 +24,7 @@ public class settingsFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public settingsFragment() {
+    public frdFragment() {
         // Required empty public constructor
     }
 
@@ -37,8 +37,8 @@ public class settingsFragment extends Fragment {
      * @return A new instance of fragment BlankFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static settingsFragment newInstance(String param1, String param2) {
-        settingsFragment fragment = new settingsFragment();
+    public static frdFragment newInstance(String param1, String param2) {
+        frdFragment fragment = new frdFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -59,6 +59,6 @@ public class settingsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.tab04, container, false);
+        return inflater.inflate(R.layout.tab02, container, false);
     }
 }

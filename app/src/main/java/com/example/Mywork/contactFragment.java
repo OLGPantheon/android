@@ -1,20 +1,19 @@
-package com.example.mywork_lbw;
+package com.example.Mywork;
 
 
 import android.os.Bundle;
-
-import android.app.Fragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import android.app.Fragment;
+
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link weixinFragment#newInstance} factory method to
+ * Use the {@link contactFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class weixinFragment extends Fragment {
+public class contactFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -25,7 +24,7 @@ public class weixinFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public weixinFragment() {
+    public contactFragment() {
         // Required empty public constructor
     }
 
@@ -38,8 +37,8 @@ public class weixinFragment extends Fragment {
      * @return A new instance of fragment BlankFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static weixinFragment newInstance(String param1, String param2) {
-        weixinFragment fragment = new weixinFragment();
+    public static contactFragment newInstance(String param1, String param2) {
+        contactFragment fragment = new contactFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -60,6 +59,6 @@ public class weixinFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.tab01, container, false);
+        return inflater.inflate(R.layout.tab03, container, false);
     }
 }

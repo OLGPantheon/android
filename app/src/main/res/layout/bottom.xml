@@ -22,9 +22,9 @@
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:layout_weight="1"
-            android:clickable="false"
-
             android:background="#000000"
+
+            android:clickable="false"
             app:srcCompat="@drawable/weixin2"
             tools:ignore="SpeakableTextPresentCheck" />
 

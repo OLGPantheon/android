@@ -1,4 +1,4 @@
-package com.example.mywork_lbw;
+package com.example.Mywork;
 
 import org.junit.Test;
 
